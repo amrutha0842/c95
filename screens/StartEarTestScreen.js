@@ -33,7 +33,7 @@ export default class StartEarTestScreen extends Component {
         <TouchableOpacity 
          style={styles.button}
         onPress = {() => {
-            Alert.alert("CAUTION: Pls wear your headphone/ Earphone in order to start your test");
+            alert("CAUTION: Pls wear your headphone/ Earphone in order to start your test");
         }}> 
             <Text> START MY EAR TEST </Text>
             
